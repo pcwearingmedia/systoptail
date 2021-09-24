@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # Script name: systoptail
+# Purpose: Extract log entries from the beginning or end of the /var/log/syslog log file. Let the user provide the number of lines to extract.
+# Version: 1.0
 # Author: P-C Markovski
 # Date (git repo init): 2019-09-25
-# Purpose: Extract log entries from the beginning or end of the /var/log/syslog log file. Let the user provide the number of lines to extract.
 
 
 function syslogtop()
