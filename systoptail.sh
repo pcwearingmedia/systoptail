@@ -26,7 +26,7 @@ function syslogtail()
 }
 
 if [[ $# -lt 1 ]]; then
-	printf "Usage: funcslogging top/tail lines\n"
+	printf "Usage: systoptail top/tail lines\n"
 	exit
 fi
 
